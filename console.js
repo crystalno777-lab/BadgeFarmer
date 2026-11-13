@@ -1,19 +1,3 @@
-/**
- * BadgeFarmer Console Edition — mobile + desktop
- *
- * Runs anywhere Discord's JS console exists: Kettu's eval command,
- * Revenge/Bunny dev tools, desktop DevTools. No webpack, no plugin API.
- * Talks straight to Discord's REST + science endpoints with the session
- * token, so it works on modded mobile IPAs where the Equicord plugin
- * can't run.
- *
- * Game Time and Variety: backdated session chunks, same engine as the
- * Equicord plugin. Streaming: live heartbeats (lawerth's telemetry shape)
- * — go live with a viewer first, or those hours won't count.
- *
- * MIT. Telemetry schemas from lawerth/discord-streamer, game-time engine
- * from Accentaro/gameSessionSpoofer via aboveproof/BadgeFarmer.
- */
 (() => {
     const API = "https://discord.com/api/v9";
     const SCIENCE = `${API}/science`;
